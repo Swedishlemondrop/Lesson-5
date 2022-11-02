@@ -1,0 +1,147 @@
+.squares{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 99%; 
+    background-color: #370617;
+    flex-direction: column;
+}
+.col{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 45%;
+    background-color: #F48C06;
+}
+.row{
+    height: 25%;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    flex-direction: row;
+    display: flex;
+}
+.col1{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.row1col1{
+    width: 20%;
+    height:50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #9D0208;
+}
+.col2{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.row1col2{
+    width: 20%;
+    height:80%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #9D0208;
+}
+.col3{
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center; 
+}
+.row2col1{
+    width: 20%;
+    height:50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #9D0208;
+}
+.col4{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.row2col2{
+    width: 20%;
+    height:50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #9D0208;
+}
+.downelement{
+    position: relative;
+    top: 35%;
+}
+.col5{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+}
+.row3col1.long{
+    width: 20%;
+    height:80%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #9D0208;
+    text-align: center;
+}
+.row3col1.short{
+    width: 20%;
+    height:40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #9D0208;
+    text-align: center;
+}
+.col6{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+}
+.row3col2.thin{
+    width: 15%;
+    height:50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #9D0208;
+}
+.row3col2.thick{
+    width: 40%;
+    height:50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #9D0208;
+}
